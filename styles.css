@@ -21,6 +21,12 @@ body {
   color: #244376;
 }
 
+p {
+  display: block;
+  width: 400px;
+  margin: 50px auto;
+  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
 
 #card {
   margin: 3em auto;
