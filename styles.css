@@ -57,7 +57,7 @@ model-viewer {
   text-decoration: none;
 }
 
-Frame {
+iframe {
   width: 100%;
   height: 400px;
 }
