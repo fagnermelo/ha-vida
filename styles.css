@@ -28,6 +28,13 @@ p {
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
+p {
+  display: block;
+  width: 400px;
+  margin: 50px auto;
+  font: 15px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
 #card {
   margin: 3em auto;
   display: flex;
