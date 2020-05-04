@@ -30,7 +30,7 @@ p {
 
 p1 {
   display: block;
-  width: 400px;
+  width: 0px;
   margin: 0px auto;
   font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
