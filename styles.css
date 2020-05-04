@@ -30,7 +30,7 @@ p {
 
 p1 {
   display: block;
-  width: 200px;
+  width: 400px;
   margin: 50px auto;
   font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
@@ -40,6 +40,13 @@ p2 {
   width: 400px;
   margin: 50px auto;
   font: 15px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+p3 {
+  display: block;
+  width: 400px;
+  margin: 50px auto;
+  font: 10px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 #card {
