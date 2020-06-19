@@ -50,8 +50,17 @@
                 auto-rotate
                 ar-scale=”auto”
                 camera-controls 
-                shadow-intensity="1" 
-                alt="Home Office" background-color="#70BCD1">               
+                shadow-intensity="1"
+                id="hotspot-demo"
+                alt="Home Office" background-color="#70BCD1"> 
+    <button slot="hotspot-visor" data-position="-178 192 9" data-normal="0 3 8"></button>
+  <button slot="hotspot-hand" data-position="132 202 177" data-normal="0 -1 0">
+    <div id="annotation">This hotspot disappears completely</div>
+  </button>
+  <button slot="hotspot-foot" data-position="0.16 0.1 0.17" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible"></button>
+  <div id="annotation">This annotation is fixed in screen-space</div>
+    
+    
   </model-viewer>
   <p3>By <a href="https://www.behance.net/fagnermelo" target="_blank">Fagner Melo</a></p3>
  
