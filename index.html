@@ -11,7 +11,7 @@
 
   <!-- Loads <model-viewer> for modern browsers: -->
   <script type="module"
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
   </script>
 
   <!-- Loads <model-viewer> for old browsers like IE11: -->
@@ -36,8 +36,6 @@
 
   <!-- 💁 OPTIONAL: Include prismatic.js for Magic Leap support -->
   <!--<script src="https://unpkg.com/@magicleap/prismatic@0.18.2/prismatic.min.js"></script>-->
-  
-  <script src="https://unpkg.com/node_modules/focus-visible/dist/focus-visible.js" defer=""></script>
 
 </head>
 <body>
@@ -46,10 +44,13 @@
   <p2>Uma experiência em Realidade Aumentada!</p2>
   
   <model-viewer src="assets/ROOM-VERSAO-05-05.glb" 
+                ios-src="assets/ROOM-VERSAO-05-05.usdz"
                 ar
-                alt="Há Vida" background-color="#70BCD1">  
+                auto-rotate
+                camera-controls 
+                shadow-intensity="1" 
+                alt="Home Office" background-color="#70BCD1">               
   </model-viewer>
-
   <p3>By <a href="https://www.behance.net/fagnermelo" target="_blank">Fagner Melo</a></p3>
  
   
